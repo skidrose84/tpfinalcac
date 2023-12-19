@@ -1,0 +1,75 @@
+<%-- 
+    Document   : iniciarSesion
+    Created on : 13 dic 2023, 19:51:48
+    Author     : lucas
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fae5ac15d7.js" crossorigin="anonymous"></script>
+  <title>Vainilla Exchange</title>
+</head>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="c://Cursos/Codo a codo/FrontendIntegrador/index.html">
+                <img src="../images/btc2.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Vainilla exchange
+              </a>
+            </div>
+          </nav>
+      </nav>
+</header>
+<body>
+  <main>
+  
+  
+    <section class="row mt-5" id="form">
+      <div class="col ">
+        <h3 class="text-center text-warning mt-5">Iniciar Sesion</h3>
+
+        
+
+      <div class="container">
+        <div class="container-fluid col-sm-3 col-md-4">
+          <form action="LoginServlet" method="post">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu clave con nadie.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+              
+              </div>
+              <div class="d-grid gap-2" >
+                <button type="submit" class="btn  btn-warning mt-5" id="iniciarSesion">Iniciar Sesion</button>
+              </div>
+              
+            </form>
+      </div>
+      </div>
+      
+    </section>
+    
+ 
+  </main>
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  
+
+</html>
+
