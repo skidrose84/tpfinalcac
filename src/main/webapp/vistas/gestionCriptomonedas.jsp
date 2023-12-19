@@ -3,13 +3,7 @@
 <%@page import="modelo.Cripto"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<%
 
-
-    String email= (String)session.getAttribute("email");
-    
-
-%>
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
     
@@ -47,8 +41,9 @@
          <body>
              <main>
                  <div class="container mt-5">
-                     <h2>Gestión de Criptomonedas de : <%out.println(email);%></h2>
-            
+                     
+             <h2>Gestión de Criptomonedas</h2>
+             <h4 class=" mt-4 mb-4"><a class="btn btn-warning " target="_blank" href="altaCripto.jsp" style="text-decoration: none" >Nueva Criptomoneda</a></h4>
             <table class="table table-striped table-dark">
                 <thead>
                     <tr>

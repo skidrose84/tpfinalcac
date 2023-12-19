@@ -6,11 +6,6 @@
 <%@page import="java.util.List"%>
 <%@page import="modelo.Usuario"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%
-
-
-  String email= (String)session.getAttribute("email");
-%>
 
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
@@ -36,10 +31,7 @@
               </a>
             </div>
           </nav>
-        <form class="d-flex">
-            <p class="me-4 " style="color :whitesmoke ">Hola  <%out.println(email);%> </p>
-            <a class="nav-link me-4" href="index.jsp" >Cerrar Sesion <%session.invalidate();%></a>
-        </form>
+       
         
       </nav>
  </header>

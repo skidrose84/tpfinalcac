@@ -48,11 +48,12 @@
             <a class="nav-link" href="gestionCriptomonedas.jsp">Administrar Criptomonedas</a>
           </li>
           
+           
         </ul>
-        <form class="d-flex">
-            <p class="me-4 " style="color :whitesmoke ">Hola  <%out.println(email);%> </p>
-            <a class="nav-link me-4" href="index.jsp" >Cerrar Sesion <% session.invalidate();%> </a>
-        </form>
+           <form class="d-flex me-2">
+              <a href="iniciarSesion.jsp" class="btn btn-warning me-2" target="_blank">Cerrar Sesion</a>
+              
+           </form>
       </div>
     </div>
   </nav>

@@ -27,8 +27,8 @@
     
     <section class="row mt-5">
         <body>
-        <div class="container mt-5">
-            <h2>Ata de Criptomonedas</h2>
+        <div class="container-fluid col-sm-3 col-md-4 mt-5">
+            <h2>Alta de Criptomonedas</h2>
             <form action="AltaCriptoServlet" method="post">
                 <input type="hidden" name="accion" value="confirmarActualizacion">
                 <input type="hidden" name="id" value="${cripto.idCripto}">

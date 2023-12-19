@@ -20,7 +20,9 @@
                 <img src="../images/btc2.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 Vainilla exchange
               </a>
+             
             </div>
+            
           </nav>
       </nav>
  </header>
